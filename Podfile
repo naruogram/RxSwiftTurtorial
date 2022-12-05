@@ -9,6 +9,7 @@ target 'RxSwiftTurtorial' do
   # Pods for RxSwiftTurtorial
   pod 'RxSwift' 
   pod 'RxCocoa'
+  pod 'RxDataSources'
 
   target 'RxSwiftTurtorialTests' do
     inherit! :search_paths

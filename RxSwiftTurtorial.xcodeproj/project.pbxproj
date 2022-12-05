@@ -13,12 +13,15 @@
 		DDE190A8293CE51A00BE391D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE190A7293CE51A00BE391D /* AppDelegate.swift */; };
 		DDE190AA293CE51A00BE391D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE190A9293CE51A00BE391D /* SceneDelegate.swift */; };
 		DDE190AC293CE51A00BE391D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE190AB293CE51A00BE391D /* ViewController.swift */; };
-		DDE190AF293CE51A00BE391D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE190AD293CE51A00BE391D /* Main.storyboard */; };
 		DDE190B1293CE51B00BE391D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE190B0293CE51B00BE391D /* Assets.xcassets */; };
 		DDE190B4293CE51B00BE391D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE190B2293CE51B00BE391D /* LaunchScreen.storyboard */; };
 		DDE190BF293CE51B00BE391D /* RxSwiftTurtorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE190BE293CE51B00BE391D /* RxSwiftTurtorialTests.swift */; };
 		DDE190C9293CE51B00BE391D /* RxSwiftTurtorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE190C8293CE51B00BE391D /* RxSwiftTurtorialUITests.swift */; };
 		DDE190CB293CE51B00BE391D /* RxSwiftTurtorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE190CA293CE51B00BE391D /* RxSwiftTurtorialUITestsLaunchTests.swift */; };
+		DDE190DB293DA18900BE391D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE190D9293DA18900BE391D /* TableViewCell.swift */; };
+		DDE190DC293DA18900BE391D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE190DA293DA18900BE391D /* TableViewCell.xib */; };
+		DDE190DF293DAD0A00BE391D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE190DE293DAD0A00BE391D /* Main.storyboard */; };
+		DDE190E2293DAEE400BE391D /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE190E1293DAEE400BE391D /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +53,6 @@
 		DDE190A7293CE51A00BE391D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDE190A9293CE51A00BE391D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DDE190AB293CE51A00BE391D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DDE190AE293CE51A00BE391D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDE190B0293CE51B00BE391D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDE190B3293CE51B00BE391D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDE190B5293CE51B00BE391D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +61,10 @@
 		DDE190C4293CE51B00BE391D /* RxSwiftTurtorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftTurtorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE190C8293CE51B00BE391D /* RxSwiftTurtorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftTurtorialUITests.swift; sourceTree = "<group>"; };
 		DDE190CA293CE51B00BE391D /* RxSwiftTurtorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftTurtorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDE190D9293DA18900BE391D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = RxSwiftTurtorial/View/Main/ViewController/TableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		DDE190DA293DA18900BE391D /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewCell.xib; path = RxSwiftTurtorial/View/Main/ViewController/TableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		DDE190DE293DAD0A00BE391D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DDE190E1293DAEE400BE391D /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		E917CFC083EFF19E27B03D64 /* Pods_RxSwiftTurtorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftTurtorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F261B521BF60EDB7FA515DE4 /* Pods-RxSwiftTurtorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftTurtorial.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftTurtorial/Pods-RxSwiftTurtorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,7 +117,6 @@
 				8989619051587CB9133CC204 /* Pods-RxSwiftTurtorialTests.debug.xcconfig */,
 				9A486ABB125084113D286BB4 /* Pods-RxSwiftTurtorialTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,10 +145,10 @@
 		DDE190A6293CE51A00BE391D /* RxSwiftTurtorial */ = {
 			isa = PBXGroup;
 			children = (
+				DDE190E0293DAED100BE391D /* Model */,
 				DDE190A7293CE51A00BE391D /* AppDelegate.swift */,
 				DDE190A9293CE51A00BE391D /* SceneDelegate.swift */,
-				DDE190AB293CE51A00BE391D /* ViewController.swift */,
-				DDE190AD293CE51A00BE391D /* Main.storyboard */,
+				DDE190DD293DA1B400BE391D /* ViewController */,
 				DDE190B0293CE51B00BE391D /* Assets.xcassets */,
 				DDE190B2293CE51B00BE391D /* LaunchScreen.storyboard */,
 				DDE190B5293CE51B00BE391D /* Info.plist */,
@@ -166,6 +171,26 @@
 				DDE190CA293CE51B00BE391D /* RxSwiftTurtorialUITestsLaunchTests.swift */,
 			);
 			path = RxSwiftTurtorialUITests;
+			sourceTree = "<group>";
+		};
+		DDE190DD293DA1B400BE391D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDE190D9293DA18900BE391D /* TableViewCell.swift */,
+				DDE190DA293DA18900BE391D /* TableViewCell.xib */,
+				DDE190AB293CE51A00BE391D /* ViewController.swift */,
+				DDE190DE293DAD0A00BE391D /* Main.storyboard */,
+			);
+			name = ViewController;
+			path = View/Main/ViewController;
+			sourceTree = "<group>";
+		};
+		DDE190E0293DAED100BE391D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDE190E1293DAEE400BE391D /* Repository.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,8 +303,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDE190B4293CE51B00BE391D /* LaunchScreen.storyboard in Resources */,
+				DDE190DC293DA18900BE391D /* TableViewCell.xib in Resources */,
 				DDE190B1293CE51B00BE391D /* Assets.xcassets in Resources */,
-				DDE190AF293CE51A00BE391D /* Main.storyboard in Resources */,
+				DDE190DF293DAD0A00BE391D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +434,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDE190AC293CE51A00BE391D /* ViewController.swift in Sources */,
+				DDE190DB293DA18900BE391D /* TableViewCell.swift in Sources */,
+				DDE190E2293DAEE400BE391D /* Repository.swift in Sources */,
 				DDE190A8293CE51A00BE391D /* AppDelegate.swift in Sources */,
 				DDE190AA293CE51A00BE391D /* SceneDelegate.swift in Sources */,
 			);
@@ -446,14 +474,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DDE190AD293CE51A00BE391D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDE190AE293CE51A00BE391D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DDE190B2293CE51B00BE391D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
